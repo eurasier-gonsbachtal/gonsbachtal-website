@@ -1,7 +1,7 @@
 <template>
     <div>
         <ImageTextWide :info="welcome"/>
-        <h1>Aktuelle Informationen</h1>
+        <h1>Aktuelle Informationen:</h1>
 
         <div style="margin-bottom: 64px;">
             <InfoContainer v-for="info in infos" :info="info" v-bind:key="info.title"/> 
