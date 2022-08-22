@@ -36,7 +36,7 @@
                 <p class="light-bold">29.12.2018</p><p>Mainz-Mombach, Mainzer Sand</p>
                 <p class="light-bold">28.10.2018</p><p>Rüdesheim, Jagdschloss, Burgruine ehrenfels</p>
                 <p class="light-bold">09.09.2018</p><p>Ginsheim, Hofgut Langenau</p>
-                <p class="light-bold">11.08.2018</p><p>Offfenbach, Käsmuhle</p>
+                <p class="light-bold">11.08.2018</p><p>Offenbach, Käsmuhle</p>
             </div>
         </div>
     </div>

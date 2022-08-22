@@ -16,6 +16,14 @@
             <h4>1 Jahr</h4>
             <img :src="images.jahr" alt="Mit einem Jahr">
         </div>
+        <div class="card" v-if="images.todesTag">
+            <h4 class="death"><i class="fa-solid fa-cross"></i>{{ images. todesTag }}</h4>
+            <img :src="images.todesTagImg" alt="">
+        </div>
+
+        <div class="card" v-if="images.todesTagDescr">
+            <p>{{images.todesTagDescr}}</p>
+        </div>
     </div>
     
 
@@ -57,6 +65,16 @@ h4 {
     background-color: var(--backgroundColor);
     border-radius: 8px 8px 0px 0px;
     margin: 0px;
+    display: flex;
+}
+
+.death {
+    background-color: #B3B3A7;
+}
+
+i {
+    color: var(--mainText);
+    font-size: 0.8em;
 }
 
 </style>

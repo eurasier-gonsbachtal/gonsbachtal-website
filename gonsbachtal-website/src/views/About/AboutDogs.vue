@@ -28,7 +28,7 @@ export default {
       mora: {
         title: "Mora - Camora von der Mainschleife",
         birthdate: `29.12.2009`,
-        description: `<p>"Wir machen eine kurze Hundepause " - Unser Notfellchen.</p><p>Über Eurasier in Not ereilte uns ein Hilfeersuchen über eine vierjährige Eurasierdame 
+        description: `<p style="text-align: left;">"Wir machen eine kurze Hundepause" - Unser Notfellchen.</p><p>Über Eurasier in Not ereilte uns ein Hilfeersuchen über eine vierjährige Eurasierdame 
         und so hielt Mora tatsächlich „nach einer kurzen Pause“ (6 Wochen später) bei uns Einzug. Mora hat unser Leben wirklich bereichert.  Wir haben durch sie und mit ihr 
         so viel Neues entdeckt und gelernt - und tun es immer noch. Ohne sie wären wir niemals so aktiv in den Hundevereinen geworden und hätten die Kontakte knüpfen können, 
         die uns schließlich zu Khaleesi und der Eröffnung unserer eigenen Zucht führte.</p>`,

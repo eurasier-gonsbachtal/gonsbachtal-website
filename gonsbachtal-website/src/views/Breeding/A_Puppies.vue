@@ -47,17 +47,9 @@
                 <h2>Amon</h2>
                 <div class="title">
                     <h4>
-                        geb. 01.01.2022, 16:48 Uhr -&nbsp
-                        <i class="fa-solid fa-cross"></i>
-                        04.05.2022 , 408g, Kennfarbe lila, Rüde, geb. Farbe wolfsfarben
+                        geb. 01.01.2022, 16:48 Uhr, 408g, Kennfarbe lila, Rüde, geb. Farbe wolfsfarben
                     </h4>
                 </div>
-                
-                <p style="margin-bottom: 16px;">
-                    Mit erst vier Monaten wanderte Amon über die Regenbogenbrücke. Aufgrund der Heftigkeit und Schnelligkeit seines Kampfes ist eine Vergiftung nicht 
-                    auszuschließen. Der Grund lässt sich nicht genau festlegen, aber feststeht, dass er viel zu früh von uns gehen musste und ein Stück der 
-                    Herzen seiner Besitzer und unserer mit sich genommen hat.
-                </p>
                 
                 <ImageCard :images="amon"/>
             </div>
@@ -78,42 +70,47 @@ export default {
         arya: {
             woche1: require("../../assets/img/A-Wurf/Woche1/Pinsel.jpg"),
             abgabe: require("../../assets/img/A-Wurf/Abgabe/Arya.jpg"),
-            halbesJahr: require("../../assets/img/comingSoon.jpg"),
+            halbesJahr: require("../../assets/img/A-Wurf/HalbesJahr/Arya.jpg"),
             jahr: require("../../assets/img/comingSoon.jpg"),
         },
         aragorn: {
             woche1: require("../../assets/img/A-Wurf/Woche1/Mister Rot.jpg"),
             abgabe: require("../../assets/img/A-Wurf/Abgabe/Aragorn.jpg"),
-            halbesJahr: require("../../assets/img/comingSoon.jpg"),
+            halbesJahr: require("../../assets/img/A-Wurf/HalbesJahr/Aragorn.jpg"),
             jahr: require("../../assets/img/comingSoon.jpg"),
         },
         finja: {
             woche1: require("../../assets/img/A-Wurf/Woche1/Miss Weiß.jpg"),
             abgabe: require("../../assets/img/A-Wurf/Abgabe/Finja.jpg"),
-            halbesJahr: require("../../assets/img/comingSoon.jpg"),
+            halbesJahr: require("../../assets/img/A-Wurf/HalbesJahr/Finja.jpg"),
             jahr: require("../../assets/img/comingSoon.jpg"),
         },
         akira: {
             woche1: require("../../assets/img/A-Wurf/Woche1/Mister Grün.jpg"),
             abgabe: require("../../assets/img/A-Wurf/Abgabe/Akira.jpg"),
-            halbesJahr: require("../../assets/img/comingSoon.jpg"),
+            halbesJahr: require("../../assets/img/A-Wurf/HalbesJahr/Akira.jpg"),
             jahr: require("../../assets/img/comingSoon.jpg"),
         },
         archie: {
             woche1: require("../../assets/img/A-Wurf/Woche1/Mister Blau.jpg"),
             abgabe: require("../../assets/img/A-Wurf/Abgabe/Archie.jpg"),
-            halbesJahr: require("../../assets/img/comingSoon.jpg"),
+            halbesJahr: require("../../assets/img/A-Wurf/HalbesJahr/Archie.jpg"),
             jahr: require("../../assets/img/comingSoon.jpg"),
         },
         akito: {
             woche1: require("../../assets/img/A-Wurf/Woche1/Der Helle.jpg"),
             abgabe: require("../../assets/img/A-Wurf/Abgabe/Akito.jpg"),
-            halbesJahr: require("../../assets/img/comingSoon.jpg"),
+            halbesJahr: require("../../assets/img/A-Wurf/HalbesJahr/Akito.jpg"),
             jahr: require("../../assets/img/comingSoon.jpg"),
         },
         amon: {
             woche1: require("../../assets/img/A-Wurf/Woche1/Mister Lila.jpg"),
             abgabe: require("../../assets/img/A-Wurf/Abgabe/Amon.jpg"),
+            todesTagImg: require("../../assets/img/A-Wurf/HalbesJahr/Amon.jpg"),
+            todesTag: "04.05.2022",
+            todesTagDescr: `Mit erst vier Monaten wanderte Amon über die Regenbogenbrücke. Aufgrund der Heftigkeit und Schnelligkeit seines Kampfes ist eine Vergiftung nicht 
+                    auszuschließen. Der Grund lässt sich nicht genau festlegen, aber feststeht, dass er viel zu früh von uns gehen musste und ein Stück der 
+                    Herzen seiner Besitzer und unserer mit sich genommen hat.`
         },
         mom: {
             name: "Khaleesi von den Wolfswiesen",
@@ -124,8 +121,8 @@ export default {
         dad: {
             name: "B-Akela vom Innestetal",
             bday: "geb. 27.10.2016",
-            img_face: require("../../assets/img/Khali_Face_small.jpg"),
-            img_side: require("../../assets/img/Khali_Side.jpg")
+            img_face: require("../../assets/img/A-Wurf/Akela/Akela_Face.jpg"),
+            img_side: require("../../assets/img/A-Wurf/Akela/Akela_Side.jpg")
         }
     }
   },
