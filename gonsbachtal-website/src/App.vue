@@ -2,7 +2,6 @@
 <body id = "body">
             <div id="content">
                 <header id="header">
-                    <img id="logo" src="./assets/Logo_Website_mitText.png" alt="">
                    <Navbar/>
                 </header>
 
@@ -52,6 +51,13 @@ export default {
     max-width: 70%;
     min-width: 500px;
     margin: 0px auto;
+}
+
+@media screen and (max-width: 768px) {
+    #content {
+        margin: 0px 0px;
+        max-width: 100%;
+    }
 }
 
 body {

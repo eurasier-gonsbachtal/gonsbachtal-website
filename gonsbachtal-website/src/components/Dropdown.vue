@@ -44,6 +44,21 @@ nav .menu-item .sub-menu {
     z-index: 100;
 }
 
+@media screen and (max-width: 768px) {
+    nav .menu-item .sub-menu {
+        border-radius: 8px;
+        box-shadow: 0px 0px 8px 0px var(--mainText);
+        position: static;
+        top: 0;
+        padding-bottom: 4px;
+    }
+
+    nav .sub-menu a {
+        margin: 0px;
+        padding: 8px 0px 4px 0px;
+    }
+}
+
 nav .sub-menu a {
     width: 100%;
 }
