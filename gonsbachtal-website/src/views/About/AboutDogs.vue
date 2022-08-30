@@ -55,7 +55,15 @@ export default {
   components: {
     ImageRightTextHigh,
     ImageLeftTextHigh
-}
+  },
+  props: ["onUeberUns"],
+  emits: ["update-ueber-uns-nav-on", "update-ueber-uns-nav-off"],
+  mounted() {
+      this.$emit("update-ueber-uns-nav-on")
+  },
+  unmounted() {
+      this.$emit("update-ueber-uns-nav-off")
+  }
 }
 </script>
 

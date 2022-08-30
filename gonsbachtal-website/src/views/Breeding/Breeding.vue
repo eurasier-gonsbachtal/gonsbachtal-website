@@ -44,9 +44,17 @@
 <script>
 
 export default {
-  name: 'App',
-  components: {
-}
+    name: 'App',
+    components: {
+    },
+    props: ["onZuchtstaette"],
+    emits: ["update-zuchtstaette-nav-on", "update-zuchtstaette-nav-off"],
+    mounted() {
+        this.$emit("update-zuchtstaette-nav-on")
+    },
+    unmounted() {
+        this.$emit("update-zuchtstaette-nav-off")
+    }
 }
 </script>
 

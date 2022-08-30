@@ -1,10 +1,10 @@
 <template>
     <div class="menu-item" @mouseover="isOpen = true" @mouseleave="isOpen = false">
-        <p :class="{active: isActive[index]}"> {{ title }} <i class="fa-solid fa-chevron-down"></i></p>
+        <p :class="{active: on}"> {{ title }} <i class="fa-solid fa-chevron-down"></i></p>
         <transition name="fade" appear>
             <div class="sub-menu" v-if="isOpen">
                 <div class="menu-item" v-for="(item, i) in items" :key="i">
-                    <router-link :to="item.link" @click="isActive[index] = true; isActive[nindex] = false">{{item.title}}</router-link>
+                    <router-link :to="item.link">{{item.title}}</router-link>
                 </div>
             </div>
         </transition>
@@ -15,7 +15,7 @@
 <script>
 export default {
     name: "dropdown",
-    props: ['title', 'items', 'isActive', 'index', 'nindex'],
+    props: ['title', 'items', 'index', 'nindex', 'on'],
     data() {
         return {
             isOpen: false

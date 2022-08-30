@@ -129,7 +129,15 @@ export default {
   components: {
     ImageCard,
     DogParents
-}
+    },
+    props: ["onZuchtstaette"],
+    emits: ["update-zuchtstaette-nav-on", "update-zuchtstaette-nav-off"],
+    mounted() {
+        this.$emit("update-zuchtstaette-nav-on")
+    },
+    unmounted() {
+        this.$emit("update-zuchtstaette-nav-off")
+    }
 }
 </script>
 

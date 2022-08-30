@@ -66,7 +66,6 @@
 </template>
 
 <script>
-
 export default {
   name: 'App',
   components: {
@@ -83,15 +82,12 @@ export default {
   --focusedText: #582F0E;
   --higlightedText: #04A0A2;
 }
-
 .address p {
     margin: 0px;
 }
-
 .address {
     margin-bottom: 32px;
 }
-
 .contact {
     display: grid;
     justify-content: space-between;
@@ -100,9 +96,7 @@ export default {
     gap: 0px 16px;
     margin-bottom: 64px;
 }
-
 .container {
     margin-bottom: 32px;
 }
-
 </style>

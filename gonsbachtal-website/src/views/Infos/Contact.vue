@@ -31,7 +31,6 @@
 
 <script>
 import ContactForm from '@/components/ContactForm.vue';
-
 export default {
   name: 'App',
   components: {
@@ -49,7 +48,6 @@ export default {
   --focusedText: #582F0E;
   --higlightedText: #04A0A2;
 }
-
 .main {
     width: 100%;
     display: grid;
@@ -57,7 +55,6 @@ export default {
     grid-template-rows: auto;
     gap: 32px 32px;
 }
-
 .contact {
     display: grid;
     justify-content: space-between;
@@ -66,23 +63,17 @@ export default {
     gap: 0px 16px;
     margin-bottom: 8px;
 }
-
 .contact-main {
     margin-bottom: 64px;
 }
-
 i {
     color: var(--mainText);
     font-size: 2em
 }
-
 i:hover, a:hover {
     color: var(--higlightedText)
 }
-
 .puppies p {
     margin-bottom: 0px;
 }
-
-
 </style>

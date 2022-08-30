@@ -10,9 +10,9 @@
         <router-link to="/"  @click="active = [false, false]">Startseite</router-link>
       </div>
 
-      <Dropdown title="Über uns" :isActive="active" :items="abouts" :index="0" :nindex="1"/>
+      <Dropdown title="Über uns" :items="abouts" :on="onUeberUns"/>
 
-      <Dropdown title="Unsere Zuchtstätte" :isActive="active" :items="breeding" :index="1" :nindex="0"/>
+      <Dropdown title="Unsere Zuchtstätte" :items="breeding" :on="onZuchtstaette"/>
 
       <div class="menu-item">
           <router-link to="/der-eurasier" @click="active = [false, false]">Der Eurasier</router-link>
@@ -36,14 +36,14 @@ export default {
   name: 'navbar',
   components: {
     Dropdown,
-},
+  },
+  props: ["onUeberUns", "onZuchtstaette"],
   data () {
     return {
-      active: [false, false],
       abouts: [
         {
           title: "Über uns",
-          link: "/ueber-uns/zuechter"
+          link: "/ueber-uns"
         },
         {
           title: "Hunde",
@@ -163,6 +163,10 @@ nav a {
 
 nav a:hover {
   color: var(--focusedText);
+}
+
+nav a:active {
+  color: var(--mainText);
 }
 
 nav a.router-link-exact-active, nav a.router-link-active {

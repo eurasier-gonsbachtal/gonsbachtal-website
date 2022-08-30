@@ -2,11 +2,18 @@
 <body id = "body">
             <div id="content">
                 <header id="header">
-                   <Navbar/>
+                   <Navbar :onUeberUns="onUeberUns" :onZuchtstaette="onZuchstaette"/>
                 </header>
 
                 <div id = "mainContainer">
-                    <router-view/>
+                    <router-view 
+                    :onUeberUns="onUeberUns" 
+                    :onZuchtstaette="onZuchstaette" 
+                    @update-ueber-uns-nav-on="onUeberUns = true" 
+                    @update-ueber-uns-nav-off="onUeberUns = false"
+                    @update-zuchtstaette-nav-on="onZuchstaette = true" 
+                    @update-zuchtstaette-nav-off="onZuchstaette = false"
+                    />
                 </div>
 
                 <footer>
@@ -28,6 +35,12 @@ export default {
   components: {
     Navbar,
     Footer
+},
+data() {
+    return {
+        onUeberUns: false,
+        onZuchstaette: false
+    }
 }
 }
 </script>
