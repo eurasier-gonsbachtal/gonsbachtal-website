@@ -52,7 +52,7 @@ export default {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     justify-content: space-between;
     gap: 8px 8px;
-    margin-bottom: 32px;
+    margin-bottom: 64px;
 }
 
 .top {

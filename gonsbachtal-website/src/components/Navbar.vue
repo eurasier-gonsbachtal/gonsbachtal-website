@@ -42,8 +42,8 @@ export default {
     return {
       abouts: [
         {
-          title: "Über uns",
-          link: "/ueber-uns"
+          title: "Familie Bohland",
+          link: "/ueber-uns/familie-bohland"
         },
         {
           title: "Hunde",

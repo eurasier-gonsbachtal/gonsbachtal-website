@@ -36,8 +36,8 @@ export default {
             {
                 title: "Wurfplanung",
                 date: "Stand: 21.08.2022",
-                description: `Unser nächster Wurf ist für 2024 geplant. Sollten Sie sich für einen Euraiserwelpe interessieren, melden Sie sich doch bitte bei der 
-                <a href="https://www.der-eurasier.de/wurfmeldungen/">Welpenvermittlung</a> unseres Zuchtvereins. Wir bedanken uns für Ihr Interesse an unserer Zuchtstätte.`
+                description: `Wir bedanken uns für Ihr Interesse an unserer Zuchtstätte. Aktuell ist kein Wurf geplant. Sollten Sie sich für einen Euraiserwelpen interessieren, 
+                melden Sie sich doch bitte bei der <a href="https://www.der-eurasier.de/wurfmeldungen/">Welpenvermittlung</a> unseres Zuchtvereins.`
             },
         ],
         images: [

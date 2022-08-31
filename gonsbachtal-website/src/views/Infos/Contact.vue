@@ -4,7 +4,7 @@
             <div class="contact-main">
                 <h1>Kontakt</h1>
                 <div class="contact">
-                    <p class="bold">Ansprechpartner:</p><p>Klaus Bohland</p>
+                    <p class="bold">Ansprechpartner:</p><p>Ute & Klaus Bohland</p>
                     <p class="bold">E-Mail:</p> <a href="mailto:eurasier@bohland.org">eurasier@bohland.org</a>
                     <p class="bold">Tel.:</p><a href="tel: 06131384047">06131 384047</a>
                 </div>

@@ -85,11 +85,11 @@ const routes = [
     }
   },
     {
-    path: '/ueber-uns',
+    path: '/ueber-uns/familie-bohland',
     name: 'AboutUs',
     component: AboutUs,
     meta: {
-      title: 'Über uns',
+      title: 'Familie Bohland',
       metaTags: [
         {
           name: 'description',

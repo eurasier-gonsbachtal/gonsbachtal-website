@@ -34,7 +34,11 @@
         </div>
 
         <div class="subcontainer" style="margin-bottom: 0px;">
-            <h2>Mitglied in</h2>
+            <h2>Partnervereine</h2>
+            <p>Eurasier Zucht-Vereinigung e.V. <a href="https://www.der-eurasier.de/">(EZV)</a></p>
+            <p>Eurasier Freunde Deutschland e.V. <a href="http://www.eurasierfreunde-deutschland.de/index.htm">(EFD)</a></p>
+            <p>Hundesportverein Rhein-Main <a href="https://www.hsvrm.de/">(HSVRM)</a></p>
+            <p>SV-OG Mainz-Finthen <a href="https://www.og-mainz-finthen.com/">(SV-OG)</a></p>
             <a href="http://www.eurasierfreunde-deutschland.de/index.htm"><img id="EFD" src="../../assets/Logo-EFD.jpg" alt="Logo EFD"></a>
             <a href="https://www.der-eurasier.de/"><img id="EZV" src="../../assets/Logo-EZV.jpg" alt="Logo EZV"></a>
         </div>

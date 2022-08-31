@@ -1,11 +1,11 @@
 <template>
     <div class="imageText">
         <div class="image">
-            <img :src="info.img" alt="Bild Khaleesi von den Wolfswiesen">
+            <img :src="info.img" alt="info.img_description">
             <p class="light" style="margin-bottom: 0px;">{{ info.img_description}}</p>
         </div>
         <div class="text">
-            <h1>{{ info.title }}</h1>
+            <h1 v-if="info.title">{{ info.title }}</h1>
             <p v-html="info.description"></p>
             <p v-if="info.contact_link">Haben Sie Fragen? <a class="link" @click="$router.push('/kontakt')">Kontaktieren</a> Sie uns!</p>
         </div>
